@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    margin: 0 40px;
+
+    .inputs {
+        textarea {
+            width: 670px;
+            height: 478px;
+            background: #FFFFFF;
+            border-radius: 12px;
+            border: none;
+            font: 17px small-caps;
+          }
+          
+          textarea:focus {
+            border: 1px solid #f4f4f4;
+            border-radius: 6.5px;
+            background: #FFFFFF;
+          }
+          
+          textarea::placeholder {
+            font-weight: 400;
+            font-size: 18px;
+            margin-left: 10px;
+            line-height: 27px;
+            color: #6b6b6b;
+          }
+          .add_img{
+            width: 20px;
+            height: 20px;
+          }
+    }
+
+    .images {
+        display: flex;
+        gap: 14px;
+
+        button {
+            width: 60px;
+            height: 60px;
+            background: #FFF76A;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+
+            img{
+                width: 18.9px;
+                height: 18.9px;
+            }
+        }
+    }
+
+}
